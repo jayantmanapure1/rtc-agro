@@ -9,10 +9,103 @@
 
   <link rel="stylesheet" type="text/css" href="./css/style.css" />
 
+  <script src="https://kit.fontawesome.com/e872ba44e8.js" crossorigin="anonymous"></script>
+
   <title>RTC Agro</title>
 </head>
 <body>
   <h1 class="text-center">RTC Agro</h1>
+
+  <div class="container container-header">
+
+    <h2>This is Dummy Title</h2>
+    <p>This is dummy description</p>
+
+    <div class="row">
+      <div class="col-md-8">
+       
+        <div class="login-screen">
+          <h2>Login Screen</h2>
+        </div>
+
+      </div>
+      <div class="col-md-4">
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid container-products">
+
+    <div class="row">
+      <div class="col-md-3">
+        <div class="product-card shadow-lg">
+          <img src="./assets/img/apple.png" alt="apple" class="mx-auto d-block"/>
+          <h3>Apple</h3>
+          <p>This is the description of apple</p>
+
+          <h4 class="text-center"> 
+            <i class="fas fa-minus-circle" onClick="decKg()"></i> 
+             <span id="qnt-apple">1</span> KG 
+            <i class="fas fa-plus-circle" onClick="incKg('apple')"></i>
+          </h4>
+
+          <button class="btn btn-warning w-100">Buy Now</button>
+
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="product-card shadow-lg">
+          <img src="./assets/img/banana.png" alt="apple" class="mx-auto d-block"/>
+          <h3>Banana</h3>
+          <p>This is the description of banana</p>
+
+          <h4 class="text-center"> 
+            <i class="fas fa-minus-circle" onClick="decKg()"></i> 
+             <span id="qnt-banana">1</span> KG 
+            <i class="fas fa-plus-circle" onClick="incKg('banana')"></i>
+          </h4>
+
+          <button class="btn btn-warning w-100">Buy Now</button>
+
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="product-card shadow-lg">
+          <img src="./assets/img/grapes.png" alt="grapes" class="mx-auto d-block"/>
+          <h3>Grapes</h3>
+          <p>This is the description of grapes</p>
+
+          <h4 class="text-center"> 
+            <i class="fas fa-minus-circle" onClick="decKg()"></i> 
+             <span id="qnt-grapes">1</span> KG 
+            <i class="fas fa-plus-circle" onClick="incKg('grapes')"></i>
+          </h4>
+
+          <button class="btn btn-warning w-100">Buy Now</button>
+
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="product-card shadow-lg">
+          <img src="./assets/img/orange.png" alt="orange" class="mx-auto d-block"/>
+          <h3>Orange</h3>
+          <p>This is the description of Orange</p>
+
+          <h4 class="text-center"> 
+            <i class="fas fa-minus-circle" onClick="decKg()"></i> 
+             <span id="qnt-orange">1</span> KG 
+            <i class="fas fa-plus-circle" onClick="incKg('orange')"></i>
+          </h4>
+
+          <button class="btn btn-warning w-100">Buy Now</button>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
