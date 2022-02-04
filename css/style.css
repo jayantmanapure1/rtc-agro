@@ -10,10 +10,7 @@ body{
 }
 
 .login-screen{
-  background-color: tomato;
-  border-radius: 10px;
-  height: 500px;
-  width: 400px;
+  padding:10px;
   margin: 10px;
 
 }
@@ -29,4 +26,12 @@ body{
   padding:10px;
   border-radius:15px;
   margin-top:20px;
+}
+.card-auth{
+  background-color: white;
+  height: 300px;
+  width: 250px;
+  border-radius:25px;
+  border: 2px dashed black;
+  box-shadow: 0px 0px 15px #00cc66;
 }
